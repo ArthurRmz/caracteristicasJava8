@@ -40,7 +40,7 @@ public class LambdaApp {
 		};
 		double resultado = operacion.calcularPromedio(2, 3);*/
 		Operacion operacion = (double x, double y) -> (x+y)/2;
-		double resultado = operacion.calcularPromedio(2, 3);
+		double resultado = operacion.calcular(2, 3);
 		System.out.println(resultado);
 	}
 	
